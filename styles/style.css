@@ -202,6 +202,10 @@
   padding: 0 24px 146px 24px;
 }
 
+.about__column {
+  display: grid;
+}
+
 .about__logo {
   display: grid;
   justify-self: center;
@@ -252,6 +256,10 @@
   font-size: 18px;
   line-height: 1.17;
   text-decoration: none;
+}
+
+.footer__menu-link_active {
+  border-bottom: 0;
 }
 
 .footer__social-list {
